@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 App name: 
     Story Crash
 App description
@@ -11,3 +12,7 @@ List of packages to install manually
     connection-banner
 deployed URL
     storycrash.meteor.com
+=======
+story-crash
+===========
+>>>>>>> 8349f09cc95f0a8e84a6235b9dd1ebee2efb351a
