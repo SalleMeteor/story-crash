@@ -1,0 +1,18 @@
+<template name="view2">
+  
+  <div id="Welcome">
+    <div id="texto">
+       "A good story can take you on a fantastic journey" Walt Disney
+      <br> <br>
+      {{#each palabreria}}
+        {{name}}
+      {{/each}}
+      
+    </div>
+    
+    <div id="textoinput">
+      <input id="palabra" type="text" onkeydown="if (event.keyCode == 13) { document.getElementById('btnPalabra').click(); this.value='';}"> 
+      <input id="btnPalabra" name="btnPalabra" value="Crash Your Word!" type="button" >
+    </div>
+  </div>
+</template>

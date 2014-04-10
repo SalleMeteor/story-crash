@@ -1,0 +1,29 @@
+<head>
+  <title>Story Crash! Create a story realtime using Meteor</title>
+</head>
+
+<body>
+  {{>connectionBanner}}
+  <div id="wrapper">
+      <div id="Top">
+        <div id="Welcome">Welcome to StoryCrash!</div>
+        <div id="Login">
+          {{> loginButtons}}
+        </div>
+      </div>
+      <div id="Body">
+        <br><br>
+        {{#if currentUser}}
+            {{> view2 }}
+            <script> console.log("Dawn of a New Day"); </script>
+        {{else}}
+            {{> view1 }}
+        {{/if}}
+      </div>
+      
+      <div id="Bottom">
+        Creado por David J. Magaña Pesqueira @DavidMx8 <br>
+        Abril 2014. Barcelona, España.
+      </div>
+  </div>
+</body>
