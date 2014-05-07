@@ -2,7 +2,7 @@ story-crash
 ===========
 
 App description
-===============
+---------------
 Crea un cuento en tiempo real junto con otros usuarios
     
 Team members
@@ -16,7 +16,7 @@ List of packages
 - fast-render
 - connection-banner
 
-deployed URL
+Deployed URL
 ============
 http://storycrash.meteor.com
 
